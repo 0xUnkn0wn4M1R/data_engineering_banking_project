@@ -17,7 +17,7 @@ The goal is to simulate a small banking system with customers and their transact
 - **Clean modular project structure** used in real-world data engineering
 
 ## 📊 Dashboard Preview
-![Banking Dashboard](data/output/dashboard_preview.png)
+![Banking Dashboard](/Users/maheshnilewar/Documents/Github/data_engineering_banking_project/data/output/dashboard_preview.png)
 
 ---
 
