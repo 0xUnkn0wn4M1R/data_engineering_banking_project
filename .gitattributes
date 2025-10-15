@@ -1,1 +1,2 @@
 data/output/* linguist-vendored
+*.ipynb linguist-vendored
