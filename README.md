@@ -61,27 +61,34 @@ data_engineering_banking_project/
 ```bash
 git clone https://github.com/maheshnilewar/data_engineering_banking_project.git
 cd data_engineering_banking_project
+
 2️⃣ Create a virtual environment
 python -m venv .venv
 source .venv/bin/activate
+
 3️⃣ Install dependencies
 pip install -r requirements.txt
+
 4️⃣ Configure database connection
 user = "postgres"
 password = "yourpassword"
 host = "localhost"
 port = 5432
 database = "banking_db"
+
 5️⃣ Run ETL and Dashboard
 python etl/extract_load.py
 python visuals/dashboard_combined.py
+
 6️⃣ View your dashboard
 data/output/banking_dashboard.html
+
 📊 Dashboard Features
 💰 Customer Balances: Net funds per customer after deposits/withdrawals
 📅 Monthly Trends: Deposit vs Withdrawal trends over time
 🌆 City Insights: Top 5 cities by total deposits
 Interactive Hover, Zoom, and Export Options
+
 🧠 Learning Outcomes
 By completing this project, you’ll understand how to:
 Connect Python to PostgreSQL using SQLAlchemy
@@ -89,10 +96,12 @@ Perform ETL with Pandas
 Automate reporting pipelines
 Design clean, modular project structures
 Build and share interactive dashboards
+
 🏁 Next Steps
 Automate daily dashboard refresh via Python scheduling or Airflow
 Deploy dashboard to cloud (Streamlit / Dash / AWS S3)
 Add monitoring logs inside /logs/
+
 © 2025 Mahesh Nilewar
 Data Engineering Banking Project
 
