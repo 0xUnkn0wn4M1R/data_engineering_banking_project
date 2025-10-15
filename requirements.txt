@@ -1,0 +1,18 @@
+# Core Python Libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Database Connectivity
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
+
+# Visualization
+plotly==6.1.1
+kaleido==0.2.1        # enables saving Plotly charts as images
+
+# Jupyter Environment
+jupyterlab==4.2.3
+notebook==7.2.1
+
+# Optional (useful for debugging/logging)
+tenacity==9.0.0
