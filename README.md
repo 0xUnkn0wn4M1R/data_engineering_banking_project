@@ -37,12 +37,19 @@ The goal is to simulate a small banking system with customers and their transact
 ## 📁 Folder Structure
 data_engineering_banking_project/
 │
+
 ├── config/ → database connection file (db_config.py)
+
 ├── etl/ → extraction and transformation scripts
+
 ├── visuals/ → Plotly dashboard script
+
 ├── data/output/ → notebook & generated HTML dashboard
+
 ├── logs/ → stores pipeline run logs
+
 ├── requirements.txt → Python dependencies
+
 └── README.md → this file
 
 
